@@ -13,6 +13,7 @@
 		<property name="connection.url">jdbc:oracle:thin:@USER-20181001SA:1521:orcl</property>
 		<property name="connection.username">scott</property>
 		<property name="connection.password">tiger</property>
+		<!--方言-->
 		<property name="dialect">org.hibernate.dialect.OracleDialect</property>
 
 		<!-- JDBC connection pool (use the built-in) -->
