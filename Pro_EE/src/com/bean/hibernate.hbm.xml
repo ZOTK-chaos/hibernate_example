@@ -8,8 +8,11 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
+	<--!table（表名）要表明用户 catelog数据库名-->
 	<class name="com.bean.Employed" table="scott.emp" catalog="orcl">
+		<--! id name的值要与java类一样-->
 		<id name="empno" type="java.lang.Integer">
+			<--!coulumn name的值要与数据库中一样-->
 			<column name="empno"></column>
 			<generator class="assigned"></generator>
 		</id>
